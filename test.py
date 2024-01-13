@@ -1,2 +1,2 @@
 from fibo_pas_opti import *
-fibo(10)
+print(fibo(50))
