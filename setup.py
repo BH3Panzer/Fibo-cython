@@ -1,5 +1,5 @@
-from Cython import Cython.Build
+from Cython.Build import cythonize
 from setuptools import setup
 setup(
-    ext_modules=Cythonize("fichier")
+    ext_modules=cythonize("fichier")
 )
